@@ -1,0 +1,13 @@
+{
+  "comcast":{
+      "user": "example@comcast.net",
+      "pass": "abcd1234"
+  },
+  "sendgrid":{
+      "from": {"name": "Your Name", "email": "your@email.com"},
+      "user": "your_sendgrid_username",
+      "pass": "abcd1234"
+  },
+  "recipients":
+    [{"name": "Your Name", "email": "your@email.com"}]
+}
