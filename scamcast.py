@@ -5,8 +5,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import sendgrid
 import json
+import os
 
-with open("config.json") as config_file:
+with open(os.path.join(os.path.dirname(__file__), "config.json")) as config_file:
   config_data = json.loads(config_file.read())
 
 COMCAST_USER = config_data["comcast"]["user"]
